@@ -1,0 +1,123 @@
+body {
+    background-color: #20B2AA;
+}
+
+.card {
+    height: 450px;
+    width: 400px;
+    border: 5px solid #968e85;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #968e85;
+    background-color: #ffdb58;
+    font-weight: bolder;
+    padding: 13px;
+    row-gap: 25px;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 20px;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.projectName {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.button {
+    height: 60px;
+    width: 220px;
+    border-radius: 10px;
+    margin-left: 840px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 17px;
+}
+
+.formDiv {
+    border: 1px solid black;
+    width: 500px;
+    height: 750px;
+    position: fixed;
+    bottom: 30px;
+    left: 700px;
+    padding: 30px;
+    background-color: #968e85;
+    display: none;
+    
+}
+
+input {
+    width: 400px;
+    height: 50px;
+}
+
+select {
+    width: 400px;
+    height: 50px;
+}
+
+label {
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+#submitButton {
+    margin-top: 50px;
+}
+
+.formHeader {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.formHead {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-left: 30px;
+    width: 310px;
+}
+
+.x {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: #FFFFFF;
+    width: 50px;
+}
+
+.removeButton {
+    width: 150px;
+    height: 40px;
+    background-color: #ff6b35;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editButton {
+    width: 150px;
+    height: 40px;
+    background-color: #32cd32;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
